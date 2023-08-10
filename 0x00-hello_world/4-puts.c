@@ -5,6 +5,6 @@
  */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle"); // puts() function prints a string to stdout
+puts("\"Programming is like building a multilingual puzzle"); /** print text */
 return (0);
-} // End main
+} /** End main */
