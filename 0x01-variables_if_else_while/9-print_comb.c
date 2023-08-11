@@ -8,13 +8,13 @@
  */
 int main(void)
 {
-	char c;
+	int n;
 
 	/** 0 to 9 separated by commas */
-	for (c = '0'; c <= '9'; c++)
+	for (n = 0; n <= 9; n++)
 	{
-		putchar(c);
-		if (c != '9')
+		putchar(n + '0');
+		if (n < 9)
 		{
 			putchar(',');
 			putchar(' ');
