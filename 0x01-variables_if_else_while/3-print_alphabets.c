@@ -10,16 +10,20 @@ int main(void)
 {
 	char c;
 
-	/** print a to z + A to Z*/
+	/** print a to z*/
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		putchar(c);
 	}
 
+	/** print A to Z*/
 	for (c = 'A'; c <= 'Z'; c++)
 	{
 		putchar(c);
 	}
+
+	/** print a new line */
+	putchar('\n');
 
 	/** return 0 */
 	return (0);
