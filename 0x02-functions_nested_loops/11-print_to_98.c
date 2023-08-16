@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * main function
+ * main - Entry point
  *
- * return 0
+ * Return: Always 0 (Success)
  */
 void print_to_98(int n)
 {

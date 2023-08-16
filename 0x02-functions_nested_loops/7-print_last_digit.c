@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main function
+ * main - Entry point
  *
- * return 0
+ * Return: Always 0 (Success)
  */
 int print_last_digit(int n)
 {
