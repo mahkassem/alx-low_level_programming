@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * times_table
  *
- * Return: Always 0 (Success)
+ * Return: void
  */
 void times_table(void)
 {
 	int digit, mult, result;
+
 	for (digit = 0; digit <= 9; digit++)
 	{
 		_putchar('0');
@@ -24,6 +25,7 @@ void times_table(void)
 
 			_putchar((result % 10) + '0');
 		}
+
 		_putchar('\n');
 	}
 }

@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * add
  *
- * Return: Always 0 (Success)
+ * Return: int
  */
 int add(int n, int m)
 {

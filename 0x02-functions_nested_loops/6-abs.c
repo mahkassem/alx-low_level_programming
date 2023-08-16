@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * _abs
  *
- * Return: Always 0 (Success)
+ * Return: int
  */
 int _abs(int i)
 {
