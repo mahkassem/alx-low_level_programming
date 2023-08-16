@@ -7,6 +7,7 @@
  */
 int print_last_digit(int n)
 {
+	/* local variable declaration */
 	int lastdigit = n % 10;
 
 	if (lastdigit < 0)

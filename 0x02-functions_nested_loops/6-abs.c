@@ -7,6 +7,7 @@
  */
 int _abs(int i)
 {
+	/* check i value */
 	if (i > 0)
 		return (i);
 	else if (i < 0)

@@ -7,6 +7,7 @@
  */
 void print_alphabet_x10(void)
 {
+	/* local variable declaration */
 	int counter = 0;
 	int letter;
 
