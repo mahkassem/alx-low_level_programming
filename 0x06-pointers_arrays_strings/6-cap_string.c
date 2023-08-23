@@ -2,35 +2,35 @@
 
 /**
  * cap_string - capitalize first character
- * 
+ *
  * @str: char *
  * Return: char *
  */
 char *cap_string(char *str)
 {
-	int index = 0;
+	int i = 0, j;
 
-	while (str[++index])
+	while (str[++i])
 	{
-		while (!(str[index] >= 'a' && str[index] <= 'z'))
-			index++;
-
-		if (str[index - 1] == ' ' ||
-		    str[index - 1] == '\t' ||
-		    str[index - 1] == '\n' ||
-		    str[index - 1] == ',' ||
-		    str[index - 1] == ';' ||
-		    str[index - 1] == '.' ||
-		    str[index - 1] == '!' ||
-		    str[index - 1] == '?' ||
-		    str[index - 1] == '"' ||
-		    str[index - 1] == '(' ||
-		    str[index - 1] == ')' ||
-		    str[index - 1] == '{' ||
-		    str[index - 1] == '}')
-			str[index] -= 32;
+		if (
+		    str[i] == ' ' ||
+		    str[i] == '\t' ||
+		    str[i] == '\n' ||
+		    str[i] == ',' ||
+		    str[i] == ';' ||
+		    str[i] == '.' ||
+		    str[i] == '!' ||
+		    str[i] == '?' ||
+		    str[i] == '"' ||
+		    str[i] == '(' ||
+		    str[i] == ')' ||
+		    str[i] == '{' ||
+		    str[i] == '}' ||
+		    i == 0)
+		{
+			if (str[i] >= 'a' && str[i] <= 'z')
+				str[i] -= 32;
+		}
 	}
-	
 	return (str);
-
 }
