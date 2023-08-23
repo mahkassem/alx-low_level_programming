@@ -2,6 +2,7 @@
 
 /**
  * reverse_array - reverse an array
+ * 
  * @a: int *
  * @n: int
  */

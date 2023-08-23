@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-* _strcmp - compare two strings +
-
-* @s1: char *
-* @s2: char *
-* Return: int
-*/
+ * _strcmp - compare two strings.
+ * 
+ * @s1: char *
+ * @s2: char *
+ * Return: int
+ */
 int _strcmp(char *s1, char *s2)
 {
 	int i = 0, diff = 0;
@@ -34,5 +34,4 @@ int _strcmp(char *s1, char *s2)
 			i++;
 	}
 	return (diff);
-
 }
