@@ -2,6 +2,7 @@
 
 /**
  * main - print number of arguments
+ *
  * @argc: argument count
  * @argv: argument vector
  *
